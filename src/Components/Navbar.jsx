@@ -37,7 +37,7 @@ function Navbar() {
 
             </div>
             {
-                openModal && (<div id='nav' className="rightside flex font-nunito flex-col absolute top-[5.4rem] bg-slate-500 sm:hidden space-x-10  xl:mr-12 xl:space-x-16 lg:mr-10 sm:space-x-10 sm:mr-6 w-full h-screen">
+                openModal && (<div id='nav' className=" z-10 flex font-nunito flex-col absolute top-[5.4rem] bg-slate-500 sm:hidden space-x-10  xl:mr-12 xl:space-x-16 lg:mr-10 sm:space-x-10 sm:mr-6 w-full h-screen">
                 <div className="nlist flex-1  flex items-cente m-8 text-[1.5rem]">
                     <ul className="flex flex-col sm:flex-row  xl:text-2xl xl:space-x-16 lg:text-2xl lg:space-x-12 md:space-x-8 md:text-xl sm:text-[.8rem] sm:space-x-6 text-white">
                         <li className="cursor-pointer hover:text-[#FCA61F] mt-8 flex items-center" onClick={toggleModal}>Home</li>

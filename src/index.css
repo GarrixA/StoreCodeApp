@@ -14,3 +14,30 @@
     left: 0%;
   }
 }
+
+#input:focus ~ #label{
+  transform: translateY(-20px);
+  transition: all .5s ease-out;
+}
+
+@font-face{
+  font-family: Raleway;
+  src: url(./assets/Raleway-Bold.ttf);
+}
+
+.Raleway{
+  font-family: Raleway;
+}
+
+@font-face{
+  font-family: Robot;
+  src: url(./assets/Roboto-Light.ttf);
+}
+.Roboto{
+  font-family: Robot;
+}
+
+.custom-shadow {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+}
