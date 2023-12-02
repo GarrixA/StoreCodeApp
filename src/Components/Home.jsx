@@ -29,7 +29,7 @@ function Home() {
               >
                 Enter Product Code
               </label>
-              <button className="bg-gradient-to-r from-indigo-700 via-purple-800 rounded-md to-pink-500 font-semibold sm:text-xl text-white sm:mt-4 mb-4 sm:py-1">
+              <button className="bg-gradient-to-r from-indigo-700 via-purple-800 rounded-md to-pink-500 font-semibold sm:text-xl text-white sm:mt-4 mb-4 sm:py-1 py-1">
                 Search
               </button>
             </form>
